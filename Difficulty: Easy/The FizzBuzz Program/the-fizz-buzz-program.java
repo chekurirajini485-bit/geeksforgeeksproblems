@@ -1,24 +1,15 @@
-import java.util.Scanner;
-
-class GFG {
-
-    public static void main(String[] args) {
-        // code here
-        Scanner sc=new Scanner(System.in);
-        // System.out.println("enter number");
-    int num=sc.nextInt();
-    
-     if(num%3==0 && num%5==0)
-    System.out.println("FizzBuzz");
-   else if(num%3==0)
-    System.out.println("Fizz");
-    else if(num%5==0)
-    System.out.println("Buzz");
-    else
-    System.out.println(num);
-    
-        sc.close();
-    
+// User function Template for Java
+class Solution {
+    public static void fizzBuzz(int number) {
+        // Write your code here.
+         if(number%3==0 && number%5==0)
+         System.out.println("FizzBuzz");
+        else if(number%3==0)
+        System.out.println("Fizz");
+         else if(number%5==0)
+         System.out.println("Buzz");
+         else
+         System.out.println(number);
+         
     }
-    
 }
