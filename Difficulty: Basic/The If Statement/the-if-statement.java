@@ -1,14 +1,12 @@
-import java.util.*;
+class Solution {
+    public static void utility(int number) {
 
-public class Solution {
-    public static void solve() {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-
-        // check whether n is big or a number
-        if (n > 100) {
+        // Write your if statement below
+        if (number > 100) {
             System.out.println("Big");
         }
+        // Write your if statement above
+
         System.out.println("Number");
     }
 }
